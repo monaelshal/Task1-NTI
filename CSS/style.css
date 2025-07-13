@@ -1,0 +1,33 @@
+body {
+      background: linear-gradient(to right, #2c3e50, #4ca1af); 
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+}
+.Card {
+      background-color: rgba(255, 255, 255, 0.12); 
+      padding: 40px 30px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      text-align: center;
+      width: 40%;
+      max-width: 450px;
+      color: #f9f9f9;
+      backdrop-filter: blur(8px); 
+      border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.Card h2 {
+      margin-bottom: 25px;
+      font-size: 28px;
+      color: #ffe082; 
+}
+.Card p {
+      font-size: 18px;
+      line-height: 1.9;
+      white-space: pre-line;
+      color: #ffffff; 
+}
